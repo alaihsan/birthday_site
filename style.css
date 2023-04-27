@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: #a2d2ff;
+    color: #fff;
+}
+
+#birth-img {
+    width: 150px;
+    border: 2px solid goldenrod;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px gold;
+}
+
+h1 {
+    text-shadow: 0px 0px 5px rgb(3, 73, 123);
+    background-color: pink;
+    padding: 1%;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bday-date {
+    text-shadow: 0px 0px 5px rgb(3, 73, 123);
+    background-color: pink;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+#bday-age {
+    text-shadow: 0px 0px 5px rgb(3, 73, 123);
+    background-color: pink;
+    padding: 1%;
+    border-radius: 10px;
+    margin: 10px 0 2px 0;;
+}
+
+h2, h3 {
+    text-shadow: 0px 0px 5px rgb(44, 60, 77);
+}
+
+img {
+    border: 6px solid white;
+    border-radius: 3%;
+    box-shadow: 0px 0px 20px rgb(255, 0, 0);
+}
+
+.gift-img {
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-color: aliceblue;
+    border: 5px solid white;
+    border-radius: 5%;
+    background-image: url(/assets/gift.jpg);
+    background-size: cover;
+}
+
+.gift-img:hover {
+    box-shadow: 0px 0px 30px gold;
+    background-image: url(assets/celebrate.webp);
+}
+
+.gift-img2 {
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-color: aliceblue;
+    border: 5px solid white;
+    border-radius: 5%;
+    background-image: url(/assets/gift.jpg);
+    background-size: cover;
+}
+
+.gift-img2:hover {
+    box-shadow: 0px 0px 30px gold;
+    background-image: url(assets/gift2.webp);
+}
